@@ -21,6 +21,7 @@ public class EchoServerV2 {
             ServerBootstrap b = new ServerBootstrap();
             b.group(bossGroup, workerGroup)
                     .channel(NioServerSocketChannel.class)
+                     // 서버의 연결을 수락하는 부모 스레드의 이벤트를 핸들링한다
                     .handler(new LoggingHandler(LogLevel.INFO))
                     .childHandler(new ChannelInitializer<SocketChannel>() {
                         @Override
