@@ -1,4 +1,4 @@
-package bootstrap;
+package bootstrap.server;
 
 import echo.server.EchoServerHandler;
 import io.netty.bootstrap.ServerBootstrap;
