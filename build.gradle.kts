@@ -10,7 +10,7 @@ repositories {
 }
 
 dependencies {
-    implementation("io.netty:netty-all:4.0.31.Final")
+    implementation("io.netty:netty-all:4.2.0.Alpha4")
     testImplementation(platform("org.junit:junit-bom:5.9.1"))
     testImplementation("org.junit.jupiter:junit-jupiter")
 }
