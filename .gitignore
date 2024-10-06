@@ -37,3 +37,9 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+### etc ###
+netty.crt
+netty.csr
+privatekey.pem
+privatekey.pem.org
